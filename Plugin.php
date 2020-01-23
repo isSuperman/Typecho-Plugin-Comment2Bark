@@ -3,7 +3,7 @@
  * Bark推送评论通知
  * 
  * @package Comment2Bark
- * @author Mr.Cola
+ * @author IsSuperman
  * @version 1.1.0
  * @link https://blog.colaink.com
  */
