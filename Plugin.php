@@ -4,7 +4,7 @@
  * 
  * @package Comment2Bark
  * @author IsSuperman
- * @version 1.1.0
+ * @version 1.0
  * @link https://blog.colaink.com
  */
 class Comment2Bark_Plugin implements Typecho_Plugin_Interface
