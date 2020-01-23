@@ -45,8 +45,8 @@ class Comment2Bark_Plugin implements Typecho_Plugin_Interface
      */
     public static function config(Typecho_Widget_Helper_Form $form)
     {
-        $key = new Typecho_Widget_Helper_Form_Element_Text('barkkey', NULL, NULL, _t('BARKKEY'), _t('BARKKEY 需要在 <a href="http://sc.ftqq.com/">Server酱</a> 注册<br />
-        同时，注册后需要在 <a href="http://sc.ftqq.com/">Server酱</a> 绑定你的微信号才能收到推送'));
+        $key = new Typecho_Widget_Helper_Form_Element_Text('barkkey', NULL, NULL, _t('BARKKEY'), _t('BARKKEY需要在App Store商店搜索【Bark】，提取https://api.day.app/后边的字符串
+        填写相应的BarkKey才能收到推送'));
         $form->addInput($key->addRule('required', _t('您必须填写一个正确的 BarkKEY')));
     }
     
